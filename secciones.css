@@ -1,0 +1,24 @@
+
+.contedor-columnas{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.columnasx3{
+    width: 33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+.columnasx3 img{
+    padding-left: 10px;
+    width: 350px;
+    height: 250px;
+}
+
+.columnasx3 h4{
+    padding-right: 20px;
+}
+
