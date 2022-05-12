@@ -1,19 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/tecnm.png" type="image/x-icon">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
 
-    <title>BIENVENIDOS</title>
+
     <style type="text/css">
 <!--
 .Estilo1 {color: #FFFF00}
 body {
-	background-color: #990000;
+	background-color: #F0DFDF;
 }
 .Estilo2 {color: #000033}
 #Layer1 {
@@ -29,15 +24,13 @@ body {
 	width:200px;
 	height:115px;
 	z-index:2;
-	left: 791px;
+	le ft: 791px;
 	top: 185px;
 }
 #Layer3 {
 	position:absolute;
 	width:202px;
-	height:67px;
-	z-index:2;
-	left: 636px;
+	height	left: 636px;
 	top: 417px;
 }
 .Estilo3 {
@@ -45,33 +38,63 @@ body {
 	color: #CCFF33;
 	font-weight: bold;
 }
+.banner{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: #F5F5F5;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url("images/grupo.jpg");
+}
+.banner-content{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  background-color: rgba(0, 22, 40, .3);
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.banner-content h1{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 190px;
+  font-size: 40px;
+  text-align: center;
+}
+.banner-content a{
+  text-decoration: none;
+  color: #FFF;
+  padding: 6px 10px;
+  border: 1px solid #FFF;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+
+
+}
+.banner-content a:hover{
+  background-color: #FFF;
+  color: #333;
+}
+
 -->
     </style>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+
   <body>
-    <h1 align="center" class="text-center mt-7 display-5 text-success Estilo2">BIENVENIDOS A MI PAGINA ALMACENADA EN GITHUB</h1>
-    <p align="center" class="text-center mt-7 display-5 text-success Estilo1">&nbsp;</p>
-    <p align="center" class="Estilo2 text-success display-5 mt-7 text-center"><strong>by MTI. Ctistian Alonso Palma Sifuentes</strong></p>
-    <p align="center" class="text-center mt-7 display-5 text-success Estilo1">&nbsp;</p>
-    <p align="center" class="text-center mt-7 display-5 text-success Estilo1">&nbsp;</p>
-    <div id="Layer1"><a href="pagina2.html"><img src="images/github.png" width="182" height="170" border="0"></a></div>
-    <p>
-      <!-- Optional JavaScript; choose one of the two! -->
-      
-      <!-- Option 1: Bootstrap Bundle with Popper -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    </p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <div class="Estilo3" id="Layer3">INGRESAR</div>
-    <p>
-      <!-- Option 2: Separate Popper and Bootstrap JS -->
-      <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
-  </p>
+    <section class="banner">
+      <div class="banner-content">
+        <h1>BIENVENIDOS</h1>
+        <a href="pagina2.html">INGRESAR</a>
+      </div>
+    </section>
+
+    
+   
   </body>
 </html>
